@@ -1,0 +1,198 @@
+body {
+  background-color: #f2f2f2;
+}
+.nav-link {
+  width: 32px;
+  height: 13px;
+  color: black;
+  padding: 21px 15px 32px 23px;
+  font-size: 11px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-top: 20px;
+  text-align: center;
+  font-weight: 700;
+}
+img {
+  vertical-align: middle;
+  margin-left: 30px;
+  margin-top: 3px;
+}
+h1 {
+  color: black;
+  font-weight: 700;
+  font-size: 24px;
+  width: 120px;
+  height: 28px;
+}
+.gallery {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+.image-container {
+  position: relative;
+  width: 362px;
+  height: auto;
+  display: inline-block;
+  overflow: hidden;
+}
+.image-container img {
+  width: 362px;
+  height: auto;
+  display: block;
+  border-radius: 0;
+}
+img.photo-1 {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  object-fit: cover;
+  z-index: 10;
+}
+.image-container {
+  width: 362px;
+  height: auto;
+  display: block;
+  border-radius: 0;
+}
+.overlay-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 185px;
+  height: 23px;
+  margin-left: 20px;
+  text-align: center;
+  color: white;
+  padding: 10px 0px;
+  font-size: 16px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  font-weight: 700;
+}
+.overlay-text11 {
+  position: absolute;
+  top: 240px;
+  left: 0;
+  width: 185px;
+  height: 23px;
+  margin-left: 60px;
+  text-align: center;
+  color: #8a8787;
+  padding: 10px 0px;
+  font-size: 10px;
+}
+.photo-info {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  z-index: 10;
+}
+.photo-info img.photo-1 {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.time-text {
+  margin-left: 60px;
+  transform: translateY(-12px);
+  font-size: 10px;
+  color: #8a8787;
+  font-weight: 500;
+}
+.flexbox {
+  margin-right: 950px;
+  width: 196px;
+  margin-top: 20px;
+}
+.image-wrapper {
+  position: relative;
+}
+.photo-row {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+.nawili2 {
+  display: block;
+  width: 700px;
+  height: 430px;
+}
+.overlay {
+  position: absolute;
+  top: 220px;
+  left: 0;
+  width: 100%;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+  pointer-events: none;
+}
+.nawili3 {
+  margin-top: 20px;
+}
+.nawili4 {
+  margin-top: 60px;
+}
+.nawili5 {
+  margin-top: 50px;
+}
+.image-with-text {
+  position: relative;
+  display: inline-block;
+}
+.image-with-text img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.overlay-text-column {
+  position: absolute;
+  top: 40px;
+  left: 150px;
+  color: #818687;
+  font-weight: bold;
+  font-size: 12px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  column-count: 3;
+  column-gap: 40px;
+
+  font-weight: bold;
+  font-size: 12px;
+}
+.overlay-text-column li {
+  margin-bottom: 10px;
+}
+.ptag {
+  position: absolute;
+  top: 40px;
+  right: 500px;
+  color: #ffffff;
+  font-size: 14px;
+  white-space: nowrap;
+  font-weight: bold;
+  max-width: 200px;
+  text-align: right;
+}
+.logo {
+  position: relative;
+  margin-top: -150px;
+  margin-left: 2100px;
+  top: 40px;
+  right: 500px;
+  width: 38px;
+  height: 40px;
+}
